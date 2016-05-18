@@ -8,7 +8,8 @@
                  [environ "1.0.3"]
                  [clj-http "3.1.0"]
                  [cheshire "5.6.1"]
-                 [ring "1.4.0"]]
+                 [ring "1.4.0"]
+                 [ring/ring-jetty-adapter "1.4.0"]]
   :plugins [[lein-ring "0.9.7"]]
   :ring {:handler mta-adapter.handler/app}
   :profiles
