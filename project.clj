@@ -11,6 +11,7 @@
                  [ring "1.4.0"]
                  [ring/ring-jetty-adapter "1.4.0"]]
   :plugins [[lein-ring "0.9.7"]]
+  :main mta-adapter.core
   :ring {:handler mta-adapter.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
